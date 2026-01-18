@@ -7,10 +7,10 @@ Although the market is constantly introducing games with complex graphics, minim
 ******Regarding Technical Processing******
 * **'Invulnerability Shield' Functionality:** Requires intervention in the **Collision Detection** algorithm. The system needs to check the character's **State Management** to ignore the 'Game Over' event when a collision occurs during the shield's active duration.
   
-  <img width="591" height="634" alt="image" src="https://github.com/user-attachments/assets/5f8e536d-63cb-4fa0-a4f0-cfbaca2b6bea" />
+  <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/5f8e536d-63cb-4fa0-a4f0-cfbaca2b6bea" />
 * **'Speed Boost Lightning' Functionality:** Challenges the ability to manage time variables and **Frame rate**. The game must synchronously increase the movement speed of the background and obstacles.
 
-  <img width="651" height="643" alt="image" src="https://github.com/user-attachments/assets/eb97333f-08f3-4004-9922-a3f4789123cb" />
+  <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/eb97333f-08f3-4004-9922-a3f4789123cb" />
 * **Random Generation Algorithm:** Ensuring items appear at logical, reachable coordinates, avoiding cases where they spawn inside the pipes."
 
 
@@ -23,3 +23,8 @@ Although the market is constantly introducing games with complex graphics, minim
 
 
 <img width="385" height="700" alt="image" src="https://github.com/user-attachments/assets/760719d9-1405-4f00-908f-b06f3a944354" />
+
+
+## HOW TO PLAY
+```bash
+python main.py
